@@ -5,7 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "docker:windows": "docker compose up -d --build",
+    "docker:linux": "sudo docker compose up -d --build"
   },
   "keywords": [],
   "author": "",
